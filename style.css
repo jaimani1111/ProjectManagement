@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f1f1f1;
+  background-image: url(https://wallpapercave.com/wp/wp8478134.jpg);
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+}
+
+#task-container {
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#task-list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+
+#task-list li:last-child {
+  border-bottom: none;
+}
+
+#task-list li span {
+  flex: 1;
+  margin-right: 10px;
+  color: #333333;
+}
+
+#task-list li button {
+  padding: 5px 10px;
+  background-color: #ff6961;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+}
+
+#task-list li button:hover {
+  background-color: #ff5046;
+  cursor: pointer;
+}
+
+#task-input {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+}
+
+#assignee-select {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  height: 80px;
+}
+
+#add-task-btn {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+}
+
+#add-task-btn:hover {
+  background-color: #45a049;
+  cursor: pointer;
+}
